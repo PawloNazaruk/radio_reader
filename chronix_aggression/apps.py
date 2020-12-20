@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class ChronixAggresionConfig(AppConfig):
-    name = 'chronix_aggresion'
+    name = 'chronix_aggression'
