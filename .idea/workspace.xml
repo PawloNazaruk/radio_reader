@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa7e709-ef19-447f-8c6e-5e7550dde4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chronix_aggression/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/radio_reader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/radio_reader.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chronix_aggression/templates/chronix_aggression/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggresion/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggresion/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggresion/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggresion/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggresion/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggresion/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggresion/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chronix_aggression/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chronix_aggression/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/radio_reader/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/radio_reader/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radio_reader/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/radio_reader/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -79,6 +80,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1119" height="272" key="GridCell.Tab.0.bottom" timestamp="1608431772427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1119" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608431772427" />
+    <state width="1119" height="272" key="GridCell.Tab.0.center" timestamp="1608431772427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1119" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608431772427" />
+    <state width="1119" height="272" key="GridCell.Tab.0.left" timestamp="1608431772426">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1119" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608431772426" />
+    <state width="1119" height="272" key="GridCell.Tab.0.right" timestamp="1608431772427">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1119" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608431772427" />
     <state x="872" y="154" key="SettingsEditor" timestamp="1608083467961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

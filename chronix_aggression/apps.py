@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class ChronixAggresionConfig(AppConfig):
+class ChronixAggressionConfig(AppConfig):
     name = 'chronix_aggression'
