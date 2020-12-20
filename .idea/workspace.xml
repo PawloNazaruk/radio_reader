@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa7e709-ef19-447f-8c6e-5e7550dde4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chronix_aggression/templates/chronix_aggression/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chronix_aggression/templates/chronix_aggression/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/templates/chronix_aggression/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chronix_aggression/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio_reader/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/radio_reader/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio_reader/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/radio_reader/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
