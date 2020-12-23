@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa7e709-ef19-447f-8c6e-5e7550dde4bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chronix_aggression/chronix_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_aggression/chronix_scrapper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.asd">
+  <component name="RunManager" selected="Python.chronix_scrapper">
     <configuration name="0002_auto_20201216_0416" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="radio_reader" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,8 +78,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="chronix_scrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="radio_reader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chronix_aggression" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chronix_aggression/chronix_scrapper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chronix_scrapper" />
         <item itemvalue="Python.asd" />
         <item itemvalue="Python.0002_auto_20201216_0416" />
       </list>
@@ -97,29 +121,33 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1119" height="272" key="GridCell.Tab.0.bottom" timestamp="1608602132652">
+    <state x="1065" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608700054163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1119" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608602132652" />
-    <state width="1119" height="272" key="GridCell.Tab.0.center" timestamp="1608602132652">
+    <state x="1065" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608700054163" />
+    <state width="1119" height="272" key="GridCell.Tab.0.bottom" timestamp="1608699810339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1119" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608602132652" />
-    <state width="1119" height="272" key="GridCell.Tab.0.left" timestamp="1608602132652">
+    <state width="1119" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608699810339" />
+    <state width="1119" height="272" key="GridCell.Tab.0.center" timestamp="1608699810338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1119" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608602132652" />
-    <state width="1119" height="272" key="GridCell.Tab.0.right" timestamp="1608602132652">
+    <state width="1119" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608699810338" />
+    <state width="1119" height="272" key="GridCell.Tab.0.left" timestamp="1608699810338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1119" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608602132652" />
-    <state x="872" y="154" key="SettingsEditor" timestamp="1608597482020">
+    <state width="1119" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608699810338" />
+    <state width="1119" height="272" key="GridCell.Tab.0.right" timestamp="1608699810338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="872" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608597482020" />
-    <state x="1066" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1608592693425">
+    <state width="1119" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608699810338" />
+    <state x="872" y="154" key="SettingsEditor" timestamp="1608697983363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1066" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608592693425" />
+    <state x="872" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608697983363" />
+    <state x="1066" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1608680424164">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1066" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608680424164" />
   </component>
 </project>

@@ -1,35 +1,39 @@
 import requests
 import json
 
-# TODO: saving song attributes on local dir
-# TODO: saving song img on local dir
-# TODO: return data functionality
+
 # TODO: processing errors
 
-def get_song_chronix():
+def scrap_img(url, path_to_save):
+    """
+    Downloads image from given url and saves it at given path.
+    """
+    # TODO: save img at correct path (where is this correct path?)
+    res = requests.get(url)
+    res.raise_for_status()
+    with open("test."+url[-3:], "wb+") as fp:
+        for chunk in res.iter_content(100000):
+            fp.write(chunk)
+
+
+def scrap_chronix():
     """
     Function for reading currently played song at chronix radio.
     """
-    url_song = "https://fastcast4u.com/player/gebacher/index.php?c=ChroniX%20AGGRESSION;"
-    url_img = "https://fastcast4u.com/player/gebacher/"  # example: +"_user/cover/g/gebacher/deveria.jpg"
+    url = "https://fastcast4u.com/player/gebacher/index.php?c=ChroniX%20AGGRESSION;"
+    res = requests.get(url)
+    res.raise_for_status()
+    res_metadata = json.loads(res.text)
+    print(res_metadata["artist"])
+    print(res_metadata["title"])
+    print(res_metadata["album"])
 
-    res_song = requests.get(url_song)
-    res_song.raise_for_status()
+    # url_img = "https://fastcast4u.com/player/gebacher/"  # example: +"_user/cover/g/gebacher/deveria.jpg"
+    url_img = "https://fastcast4u.com/player/gebacher/" + res_metadata["image"]
+    scrap_img(url_img, "")
 
-    song_metadata = json.loads(res_song.text)
-    # artist
-    # title
-    # album
-    print(res_song._content)
+    # TODO return data to be added to db
 
-
-    url_img += str(song_metadata["image"])
-    res_img = requests.get(url_img)
-    print(res_img._content)
-    res_img.raise_for_status()
-    with open("asd.jpg", "wb+") as fp:
-        # file on storage
-        pass
+scrap_chronix()
 
 
-get_song_chronix()
