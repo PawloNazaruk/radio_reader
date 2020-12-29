@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('chronix_aggression', '0002_auto_20201216_0416'),
+        ('chronix_radio', '0002_auto_20201216_0416'),
     ]
 
     operations = [

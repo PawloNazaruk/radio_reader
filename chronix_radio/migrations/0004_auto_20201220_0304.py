@@ -6,7 +6,7 @@ from django.db import migrations
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('chronix_aggression', '0003_song_favourite'),
+        ('chronix_radio', '0003_song_favourite'),
     ]
 
     operations = [

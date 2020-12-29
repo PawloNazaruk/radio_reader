@@ -1,13 +1,13 @@
 from django.shortcuts import render
-from .models import Song
+from .models import Track
 from pprint import pprint
 # Create your views here.
 
 def index(request):
-    songs = Song.objects.all()
+    tracks = Track.objects.all()
     context = {
-        "songs": songs,
+        "tracks": tracks,
         "temp": "asd",
     }
     pprint(context)
-    return render(request, "chronix_aggression/index.html", context)
+    return render(request, "chronix_radio/index.html", context)

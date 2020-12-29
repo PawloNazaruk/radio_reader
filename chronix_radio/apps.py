@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class ChronixAggressionConfig(AppConfig):
-    name = 'chronix_aggression'
+    name = 'chronix_radio'

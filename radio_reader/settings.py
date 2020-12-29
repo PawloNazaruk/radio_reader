@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'chronix_aggression.apps.ChronixAggressionConfig',
+    'chronix_radio.apps.ChronixAggressionConfig',
 ]
 
 MIDDLEWARE = [

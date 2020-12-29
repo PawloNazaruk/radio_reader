@@ -19,5 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('chronix_aggression/', include('chronix_aggression.urls'))
+    path('chronix_radio/', include('chronix_radio.urls'))
 ]
