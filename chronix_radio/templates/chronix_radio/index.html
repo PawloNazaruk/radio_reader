@@ -6,10 +6,10 @@
 </head>
 <body>
     <h1>wolololol</h1>
-    {% if songs %}
+    {% if tracks %}
         <ul>
-        {% for song in songs %}
-            <li>{{ song.track_text }}</li>
+        {% for track in tracks %}
+            <li>{{ track.title }} - {{ track.artist }} _ {{ track.album }}</li>
         {% endfor %}
         </ul>
     {% else %}

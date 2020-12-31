@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa7e709-ef19-447f-8c6e-5e7550dde4bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chronix_radio/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chronix_radio/managment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chronix_radio/managment/commands/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/chronix_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/chronix_scrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/migrations/0002_auto_20201216_0416.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/migrations/0002_auto_20201216_0416.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/migrations/0003_song_favourite.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/migrations/0003_song_favourite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/migrations/0004_auto_20201220_0304.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/migrations/0004_auto_20201220_0304.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/migrations/0005_auto_20201220_0307.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/migrations/0005_auto_20201220_0307.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/templates/chronix_aggression/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/templates/chronix_radio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_aggression/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chronix_radio/chronix_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/managment/commands/chronix_scrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chronix_radio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chronix_radio/templates/chronix_radio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/templates/chronix_radio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chronix_radio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/radio_reader/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/radio_reader/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/radio_reader/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/radio_reader/urls.py" afterDir="false" />
     </list>
@@ -31,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -51,6 +40,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\_python\radio_reader\chronix_radio\Scripts\chronix_radio" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.chronix_scrapper">
     <configuration name="0002_auto_20201216_0416" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -138,6 +132,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609358310892">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609358310892" />
     <state x="1065" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608700054163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
