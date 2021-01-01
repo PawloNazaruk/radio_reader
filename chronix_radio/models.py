@@ -10,8 +10,17 @@ class Track(models.Model):
     favourite = models.BooleanField(choices=FAVOURITE_CHOICES, blank=True, default=False)
     counter = models.IntegerField(default=1)
 
+    def __eq__(self, other):
+        if isinstance(other, self.__class__):
+            return self.title == other.title and self.artist == other.artist and self.album == other.album
+        else:
+            return False
+
+    def __str__(self):
+        return f"{self.__class__.__name__}({self.title} - {self.artist} _ {self.album})"
+
     def __repr__(self):
-        return f"{self.__class__.__name__}({self.title} - {self.artist})"
+        return f"{self.__class__.__name__}({self.title} - {self.artist} _ {self.album})"
 
 
 class ChronixRadioTrack(models.Model):

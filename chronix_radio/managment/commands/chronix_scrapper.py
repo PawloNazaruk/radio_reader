@@ -39,45 +39,55 @@ def scrap_chronix_page():
     """
     log_time()
     stations_urls = {
-        "radio": "",
-        "grit": "",
-        "metal": "",
-        "aggression": "https://fastcast4u.com/player/gebacher/index.php?c=ChroniX%20AGGRESSION",
+        "chronix_radio": "",
+        "chronix_grit": "",
+        "chronix_metal": "",
+        "chronix_aggression": "https://fastcast4u.com/player/gebacher/index.php?c=ChroniX%20AGGRESSION",
     }
 
-    res = requests.get(stations_urls["aggression"])
+    res = requests.get(stations_urls["chronix_aggression"])
     res.raise_for_status()
     res_data = json.loads(res.text)
 
-    new_track = Track(
+    print(f"===========================")
+    print(f'Currently played at ChronixAggresion: ')
+    print(f'title: {res_data["title"]}')
+    print(f'artist: {res_data["artist"]}')
+    print(f'album: {res_data["album"]}')
+
+    track_playing_now = Track(
         title=res_data["title"],
         artist=res_data["artist"],
         album=res_data["album"],
     )
-
-
     tracks = Track.objects.all()
-    if new_track in tracks:
-        try:
-            track = Track.objects.get(title=new_track.title, album=new_track.album, artist=new_track.artist)
-            specific_station = ChronixRadioTrack(played_time=timezone.now(), track=track)
-            specific_station.save()
-        except:
-            print("Something is not yes.")
+
+    if track_playing_now not in tracks:
+        track_playing_now.save()  # Saved to Track db
+        track_from_station = ChronixAggressionTrack(played_time=timezone.now(), track=track_playing_now)
+        track_from_station.save()
+        print(f"Was added: {track_playing_now}, id={track_playing_now.pk}")
     else:
-        new_track.save()
-        specific_station = ChronixRadioTrack(played_time=timezone.now(), track=new_track)
-        specific_station.save()
-
-
+        last_played_track = ChronixAggressionTrack.objects.last()
+        if not track_playing_now == last_played_track.track:
+            track_playing_now = Track.objects.get(
+                                        title=track_playing_now.title,
+                                        artist=track_playing_now.artist,
+                                        album=track_playing_now.album)
+            print("AAAAAAAAAAAAAAAAAAAAA")
+            track_from_station = ChronixAggressionTrack(
+                                        played_time=timezone.now(),
+                                        track=track_playing_now
+                                        )
+            track_from_station.save()
+            print("Track was added to sub table.")
+        else:
+            print("Track is already in sub table.")
     """# url_img = "https://fastcast4u.com/player/gebacher/"  # example: +"_user/cover/g/gebacher/deveria.jpg"
     url_img = "https://fastcast4u.com/player/gebacher/" + res_data["image"]
     res_img = scrap_img(url_img, "")"""
-
     time.sleep(60)
     # TODO return data to be added to db
 
 
 scrap_chronix_page(repeat=60, repeat_until=None)
-
-
