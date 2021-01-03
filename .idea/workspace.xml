@@ -4,7 +4,8 @@
     <list default="true" id="2fa7e709-ef19-447f-8c6e-5e7550dde4bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chronix_radio/managment/commands/chronix_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/managment/commands/chronix_scrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio_reader/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/radio_reader/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,9 +163,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1002" y="134" width="772" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609439901493" />
-    <state x="1024" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1609390877534">
+    <state x="1024" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1609711835576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1024" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609390877534" />
+    <state x="1024" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609711835576" />
   </component>
 </project>
