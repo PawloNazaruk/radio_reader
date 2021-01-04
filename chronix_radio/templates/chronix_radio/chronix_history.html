@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <!-- Chronix Aggression -->
+    <h1>Chronix Aggression History</h1>
+    {% if current_track_aggression %}
+        <ol>
+             <li>
+                <b>{{ current_track_aggression.track.title }} - {{ current_track_aggression.track.artist }} _
+                    {{ current_track_aggression.track.album }}__{{ current_track_aggression.played_time }}</b>
+            </li>
+        </ol>
+    {% else %}
+        <h1>now_aggression is empty</h1>
+    {% endif %}
+
+    {% if last_four_aggression %}
+        <ol start="2">
+        {% for track_aggression in last_four_aggression %}
+            <li>{{ track_aggression.track.title }} - {{ track_aggression.track.artist }} _
+                {{ track_aggression.track.album }}__{{ track_aggression.played_time }}</li>
+        {% endfor %}
+        </ol>
+    {% else %}
+        <p>last_five_aggresion are empty</p>
+    {% endif %}
+
+    <!-- Chronix Grit -->
+    <h1>Chronix Grit History</h1>
+    {% if current_track_grit %}
+        <ol>
+             <li>
+                {{ current_track_grit.track.title }} - {{ current_track_grit.track.artist }} _
+                    {{ current_track_grit.track.album }}__{{ current_track_grit.played_time }}
+            </li>
+        </ol>
+    {% else %}
+        <h1>current_track_grit is empty</h1>
+    {% endif %}
+
+
+    {% if last_four_grit %}
+        <ol start="2">
+        {% for track_aggression in last_four_grit %}
+            <li>{{ track_aggression.track.title }} - {{ track_aggression.track.artist }} _
+                {{ track_aggression.track.album }}__{{ track_aggression.played_time }}</li>
+        {% endfor %}
+        </ol>
+    {% else %}
+        <p>last_four_grit are empty</p>
+    {% endif %}
+
+    <!-- Chronix Metal -->
+    <h1>Chronix Metal History</h1>
+    {% if current_track_metal %}
+        <ol>
+             <li>
+                {{ current_track_metal.track.title }} - {{ current_track_metal.track.artist }} _
+                    {{ current_track_metal.track.album }}__{{ current_track_metal.played_time }}
+            </li>
+        </ol>
+    {% else %}
+        <h1>current_track_metal is empty</h1>
+    {% endif %}
+
+    {% if last_four_metal %}
+        <ol start="2">
+        {% for track_aggression in last_four_metal %}
+            <li>{{ track_aggression.track.title }} - {{ track_aggression.track.artist }} _
+                {{ track_aggression.track.album }}__{{ track_aggression.played_time }}</li>
+        {% endfor %}
+        </ol>
+    {% else %}
+        <p>last_four_metal are empty</p>
+    {% endif %}
+</body>
+</html>

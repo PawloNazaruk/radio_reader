@@ -10,7 +10,7 @@ from django.utils import timezone
 from chronix_radio.models import Track, ChronixRadioTrack, ChronixGritTrack, ChronixMetalTrack, ChronixAggressionTrack
 
 
-@background(schedule=60)
+@background(schedule=30)
 def scrap_chronix():
     """
     Function for reading currently played song at chronix radio.
@@ -68,7 +68,7 @@ def scrap_chronix():
                 print("Track was added to sub table.")
             else:
                 print("Track was already added to sub table just before.")
-    time.sleep(60)
+    time.sleep(30)
 
 
 def scrap_song_data(station):
@@ -123,4 +123,4 @@ def print_currently_played_song(station, track_json):
     print(f'album: {track_json["album"]}')
 
 
-scrap_chronix(repeat=60, repeat_until=None)
+scrap_chronix(repeat=30, repeat_until=None)

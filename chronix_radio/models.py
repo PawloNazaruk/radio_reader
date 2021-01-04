@@ -2,12 +2,10 @@ from django.db import models
 
 
 class Track(models.Model):
-    FAVOURITE_CHOICES = [("T", "True"), ("F", "False")]
     title = models.CharField(max_length=100)
     artist = models.CharField(max_length=100)
     album = models.CharField(max_length=100)
     img = models.ImageField(upload_to="tracks/", blank=True)
-    favourite = models.BooleanField(choices=FAVOURITE_CHOICES, blank=True, default=False)
     counter = models.IntegerField(default=1)
 
     def __eq__(self, other):
@@ -17,10 +15,7 @@ class Track(models.Model):
             return False
 
     def __str__(self):
-        return f"{self.__class__.__name__}({self.title} - {self.artist} _ {self.album})"
-
-    def __repr__(self):
-        return f"{self.__class__.__name__}({self.title} - {self.artist} _ {self.album})"
+        return f"{self.__class__.__name__}({self.title},{self.artist},{self.album},{self.pk})"
 
 
 class ChronixRadioTrack(models.Model):
