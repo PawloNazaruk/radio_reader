@@ -6,7 +6,7 @@ class Track(models.Model):
     title = models.CharField(max_length=100)
     artist = models.CharField(max_length=100)
     album = models.CharField(max_length=100)
-    img = models.ImageField(blank=True)
+    img = models.ImageField(upload_to="tracks/", blank=True)
     favourite = models.BooleanField(choices=FAVOURITE_CHOICES, blank=True, default=False)
     counter = models.IntegerField(default=1)
 
