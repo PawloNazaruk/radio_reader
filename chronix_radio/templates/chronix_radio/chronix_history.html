@@ -10,6 +10,8 @@
     {% if current_track_aggression %}
         <ol>
              <li>
+                 <img src="{{ current_track_aggression.track.img }}">
+                 <img src="media/tracks/track000001.jpg">
                 <b>{{ current_track_aggression.track.title }} - {{ current_track_aggression.track.artist }} _
                     {{ current_track_aggression.track.album }}__{{ current_track_aggression.played_time }}</b>
             </li>

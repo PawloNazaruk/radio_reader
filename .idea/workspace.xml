@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2fa7e709-ef19-447f-8c6e-5e7550dde4bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_radio/managment/commands/chronix_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/managment/commands/chronix_scrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_radio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chronix_radio/templates/chronix_radio/chronix_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/templates/chronix_radio/chronix_history.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chronix_radio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_radio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/radio_reader/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/radio_reader/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
