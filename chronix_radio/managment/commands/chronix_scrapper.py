@@ -46,10 +46,10 @@ def scrap_chronix():
             track_to_station = station.db_name(played_time=timezone.now(), track=track_played_now)
             track_to_station.save()
 
-            path = "media/tracks/track" + str(track_played_now.id).zfill(6) + img_extension
+            path = "media/covers/track" + str(track_played_now.id).zfill(6) + img_extension
             print_this(path)
             save_img(path, res_img)
-            track_played_now.img = path
+            track_played_now.img = "/covers/track" + str(track_played_now.id).zfill(6) + img_extension
             track_played_now.save()
 
             print(f"Was added: {track_played_now}, id={track_played_now.pk}")

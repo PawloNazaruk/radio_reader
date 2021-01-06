@@ -123,3 +123,7 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+print(f"MEDIA_ROOT: {MEDIA_ROOT}")
+print(f"MEDIA_URL {MEDIA_URL}")
+print(f"BASE_DIR {BASE_DIR}")

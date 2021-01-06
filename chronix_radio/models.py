@@ -5,7 +5,7 @@ class Track(models.Model):
     title = models.CharField(max_length=100)
     artist = models.CharField(max_length=100)
     album = models.CharField(max_length=100)
-    img = models.ImageField(upload_to="tracks/", blank=True)
+    img = models.ImageField(upload_to="covers", blank=True)
     counter = models.IntegerField(default=1)
 
     def __eq__(self, other):
