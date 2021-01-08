@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fa7e709-ef19-447f-8c6e-5e7550dde4bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/radio_reader.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/radio_reader.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_radio/managment/commands/chronix_scrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/managment/commands/chronix_scrapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_radio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_radio/templates/chronix_radio/chronix_history.html" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/templates/chronix_radio/chronix_history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_radio/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/radio_reader/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/radio_reader/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radio_reader/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/radio_reader/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="C:/_environments/radio_reader" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -130,6 +128,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="961" y="177" key="#Inspections" timestamp="1610143656090">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="961" y="177" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1610143656090" />
     <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609358310892">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -138,6 +140,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1065" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608700054163" />
+    <state x="478" y="312" key="FileChooserDialogImpl" timestamp="1610143798172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="478" y="312" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610143798172" />
     <state width="1119" height="272" key="GridCell.Tab.0.bottom" timestamp="1608699810339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -154,14 +160,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1119" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608699810338" />
-    <state x="872" y="154" key="SettingsEditor" timestamp="1608697983363">
+    <state x="852" y="133" key="SettingsEditor" timestamp="1610143811464">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="872" y="154" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608697983363" />
-    <state x="1066" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1609913999980">
+    <state x="852" y="133" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610143811464" />
+    <state x="1066" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1610141470994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1066" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609913999980" />
+    <state x="1066" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610141470994" />
     <state x="1002" y="134" width="772" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609439901493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
