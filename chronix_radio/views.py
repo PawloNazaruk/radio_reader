@@ -30,7 +30,7 @@ def index(request):
     context = {
         "tracks": tracks,
     }
-    return render(request, "chronix_radio/index.html", context)
+    return render(request, "chronix_radio/base.html", context)
 
 
 def chronix_aggression(request):
