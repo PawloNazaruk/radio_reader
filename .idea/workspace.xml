@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fa7e709-ef19-447f-8c6e-5e7550dde4bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_radio/templates/chronix_radio/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/templates/chronix_radio/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chronix_radio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chronix_radio/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="94c653ea-6737-426b-89d7-2e07aa2a3137" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,16 +10,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectId" id="1liYizqApVgz69B3F0wDSKS2Cgg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1mtmgyChYyr55mVujW525F9BswM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,148 +24,25 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/_environments/radio_reader" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\_python\radio_reader\chronix_radio\Scripts\chronix_radio" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.chronix_scrapper">
-    <configuration name="0002_auto_20201216_0416" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="radio_reader" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chronix_aggression/migrations" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chronix_aggression/migrations/0002_auto_20201216_0416.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="asd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="radio_reader" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="C:/" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:/asd.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="chronix_scrapper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="radio_reader" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chronix_aggression" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chronix_aggression/chronix_scrapper.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.chronix_scrapper" />
-        <item itemvalue="Python.asd" />
-        <item itemvalue="Python.0002_auto_20201216_0416" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2fa7e709-ef19-447f-8c6e-5e7550dde4bf" name="Default Changelist" comment="" />
-      <created>1608081510290</created>
+      <changelist id="94c653ea-6737-426b-89d7-2e07aa2a3137" name="Default Changelist" comment="" />
+      <created>1610321376828</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608081510290</updated>
+      <updated>1610321376828</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="961" y="177" key="#Inspections" timestamp="1610143656090">
+    <state x="730" y="163" key="SettingsEditor" timestamp="1610321430263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="961" y="177" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1610143656090" />
-    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610154790012">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="709" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610154790012" />
-    <state x="1065" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608700054163">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1065" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1608700054163" />
-    <state x="478" y="312" key="FileChooserDialogImpl" timestamp="1610143798172">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="478" y="312" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610143798172" />
-    <state width="1119" height="272" key="GridCell.Tab.0.bottom" timestamp="1608699810339">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1119" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608699810339" />
-    <state width="1119" height="272" key="GridCell.Tab.0.center" timestamp="1608699810338">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1119" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608699810338" />
-    <state width="1119" height="272" key="GridCell.Tab.0.left" timestamp="1608699810338">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1119" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608699810338" />
-    <state width="1119" height="272" key="GridCell.Tab.0.right" timestamp="1608699810338">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1119" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608699810338" />
-    <state x="852" y="133" key="SettingsEditor" timestamp="1610143811464">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="852" y="133" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610143811464" />
-    <state x="1066" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1610227317081">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1066" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610227317081" />
-    <state x="1002" y="134" width="772" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609439901493">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1002" y="134" width="772" height="772" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609439901493" />
-    <state x="1024" y="234" width="672" height="678" key="search.everywhere.popup" timestamp="1609711835576">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1024" y="234" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609711835576" />
+    <state x="730" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610321430263" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-media/*
+apps/media/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -125,4 +125,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-chronix_radio/test.jpg
+apps/chronix_radio/test.jpg

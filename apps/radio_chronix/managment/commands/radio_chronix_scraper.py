@@ -7,7 +7,8 @@ from datetime import datetime
 from background_task import background
 from django.utils import timezone
 
-from chronix_radio.models import Track, ChronixRadioTrack, ChronixGritTrack, ChronixMetalTrack, ChronixAggressionTrack
+from apps.radio_hub.models import Track
+from apps.radio_chronix.models import ChronixAggressionTrack, ChronixGritTrack, ChronixMetalTrack
 
 
 @background(schedule=30)
@@ -17,6 +18,10 @@ def scrap_chronix():
     """
     log_time()
     ChronixStation = namedtuple('ChronixStation', "name db_name url")
+    aggression = ChronixStation(name="aggression",
+                                db_name=ChronixAggressionTrack,
+                                url="https://fastcast4u.com/player/gebacher/index.php?c=ChroniX%20AGGRESSION",
+    )
     grit = ChronixStation(name='grit',
                           db_name=ChronixGritTrack,
                           url="https://fastcast4u.com/player/chronixg/index.php?c=ChroniX%20|%20GRIT",
@@ -25,11 +30,7 @@ def scrap_chronix():
                            db_name=ChronixMetalTrack,
                            url="https://fastcast4u.com/player/chronixr/index.php?c=ChroniX%20|%20METALCORE",
     )
-    aggression = ChronixStation(name="aggression",
-                                db_name=ChronixAggressionTrack,
-                                url="https://fastcast4u.com/player/gebacher/index.php?c=ChroniX%20AGGRESSION",
-    )
-    stations = [grit, metal, aggression]
+    stations = [aggression, grit, metal]
 
     for station in stations:
         print(station)
@@ -46,9 +47,11 @@ def scrap_chronix():
             track_to_station = station.db_name(played_time=timezone.now(), track=track_played_now)
             track_to_station.save()
 
-            path = "media/covers/track" + str(track_played_now.id).zfill(6) + img_extension
+            # path where img will be saved
+            path = "apps/media/covers/track" + str(track_played_now.id).zfill(6) + img_extension
             print_this(path)
             save_img(path, res_img)
+            #
             track_played_now.img = "/covers/track" + str(track_played_now.id).zfill(6) + img_extension
             track_played_now.save()
 
