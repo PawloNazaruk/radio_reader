@@ -14,11 +14,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 from apps.radio_hub import views as radio_hub_views
 
+import apps.radio_chronix.managment.commands.radio_chronix_scraper
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('radio_hub/index/', radio_hub_views.index, name="radio_hub_index")
+    path('radio_hub/index/', radio_hub_views.index, name="radio_hub_index"),
+    path('radio_hub/radio_chronix/', include('apps.radio_chronix.urls')),
 ]

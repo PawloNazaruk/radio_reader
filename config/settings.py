@@ -16,6 +16,25 @@ import sys
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+APPS_DIR = BASE_DIR.joinpath('apps')
+sys.path.insert(0, APPS_DIR)
+
+
+def print_log():
+    log = {
+        '-1': APPS_DIR,
+        '1': BASE_DIR,
+        '2': Path(__file__),
+        '3': Path(__file__).resolve(),
+        '4': Path(__file__).resolve().parent,
+        '5': Path(__file__).resolve().parent.parent,
+        '6': MEDIA_ROOT,
+        '7': STATIC_ROOT,
+        '8': STATICFILES_DIRS,
+        '9': TEMPLATES,
+    }
+    for k, v in log.items():
+        print(f"{k}: {v}")
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
@@ -40,6 +59,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'background_task',
     'apps.radio_hub',
+    'apps.radio_chronix',
 ]
 
 MIDDLEWARE = [
@@ -116,11 +136,11 @@ USE_L10N = True
 
 USE_TZ = True
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
+MEDIA_ROOT = BASE_DIR / 'apps/media'
+MEDIA_URL = '/media/'
 
-STATIC_URL = '/apps/static/'
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'apps/media')
-MEDIA_URL = '/apps/media/'
+STATIC_ROOT = BASE_DIR / 'apps/static'
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR / 'static']

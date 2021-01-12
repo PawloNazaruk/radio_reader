@@ -7,12 +7,14 @@ from datetime import datetime
 from background_task import background
 from django.utils import timezone
 
+from config.settings import MEDIA_ROOT, MEDIA_URL
 from apps.radio_hub.models import Track
 from apps.radio_chronix.models import ChronixAggressionTrack, ChronixGritTrack, ChronixMetalTrack
 
 
 @background(schedule=30)
 def scrap_chronix():
+    print("AAAAAAAAAAAAAAAAAAAAAAAA")
     """
     Function for reading currently played song at chronix radio.
     """
